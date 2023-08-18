@@ -1,0 +1,44 @@
+#elementContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-nav {
+  position: fixed;
+  z-index:51;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 50px;
+  overflow-x: scroll;
+  white-space: nowrap;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.element-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.element-list li {
+  padding: 10px;
+}
+
+.element-list li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.element-list li a:hover {
+  color: #ff6600;
+}
